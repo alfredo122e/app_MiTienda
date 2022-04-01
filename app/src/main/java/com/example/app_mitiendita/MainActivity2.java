@@ -62,7 +62,7 @@ public class MainActivity2 extends AppCompatActivity {
                                 break;
 
                             case 1:
-                                startActivity(new Intent(getApplicationContext(),Editar.class)
+                                startActivity(new Intent(getApplicationContext(),modificar.class)
                                         .putExtra("position", position));
                                 break;
 
